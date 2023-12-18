@@ -32,8 +32,8 @@ while(prob==True):
         while(move[0].isnumeric() == False or move[2].isnumeric()==False):
             move = input("You should enter numbers! ")
 
-    row = move[0] #to sygrinw me grid[0] , grid[1], grid[2]
-    column = move[2] #to sugrinw me deutero stoiexeio tou grid dld grid[0][0],
+    row = move[0] #Comparison with grid[0], grid[1], grid[2]
+    column = move[2] #Comparison with 2nd attribute of grid (grid[0][0])
 
 
 # I find from the first digit of the cell that the player enters which row of the table represents
